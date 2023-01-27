@@ -26,4 +26,46 @@ body {
 .picture {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+}
+
+.person {
+
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.person__description--with-margin {
+    margin-bottom: 22px;
+}
+
+.person__info {
+    margin-bottom: 24px;
+}
+
+.person__link {
+    color: #D3F9B5;
+    text-decoration: none;
+}
+
+.person__name {
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.person__position {
+    font-size: 18px;
+    color: #545454;
+    margin: 0;
+    font-style: italic;
+}
+
+.special {
+    color: #005377;
+    font-weight: normal;
 }
