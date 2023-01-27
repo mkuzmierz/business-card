@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+  }  
+
+body {
+    background: #052F5F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    background: #B38D97;
+    border-radius: 16px;
+    width: 624px;
+    margin: 16px;
+    padding: 32px;
+}
+
+.picture {
+    width: 150px;
+    height: 150px;
+}
