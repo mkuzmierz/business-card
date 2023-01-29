@@ -45,6 +45,14 @@ body {
     margin-bottom: 22px;
 }
 
+.person__description--with-margin-and-border {
+    border: solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
 .person__info {
     margin-bottom: 24px;
 }
