@@ -48,6 +48,7 @@ body {
 .person__description--with-margin-and-border {
     border: solid;
     border-radius: 10px;
+    border-color: #c9b6bb;
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
