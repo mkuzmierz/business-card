@@ -10,3 +10,13 @@ heading.textContent = 'Małgorzata Kuźmierz';
 
 const personDescription = document.querySelector('.person__description--js');
 personDescription.insertAdjacentText('beforeend', '👦');
+
+const picture = document.querySelector('.picture');
+
+picture.classList.add('round');
+
+function toggleRound() {
+    picture.classList.toggle('round');
+}
+
+picture.addEventListener('click', toggleRound);

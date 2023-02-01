@@ -26,8 +26,13 @@ body {
 .picture {
     width: 150px;
     height: 150px;
+    margin-right: 24px;
+    transition: all 0.2s;
+}
+
+.round {
+    transform: rotate(1turn);
     border-radius: 50%;
-    margin-right: 32px;
 }
 
 .person {
